@@ -1,0 +1,53 @@
+.title {
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.image {
+  vertical-align: top;
+  background-color: white;
+  display: inline-block;
+  margin: 16px 8px 16px 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.image img {
+  width: 70%;
+}
+
+.content {
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  width: 61%;
+  border-radius: 8px;
+}
+
+.content span {
+  margin: 32px 0;
+  display: block;
+}
+
+.btn {
+  background: #ffae42;
+  color: black;
+  border: 2px solid black;
+  padding: 8px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 8px;
+}
+
+.btn:hover,
+.btn:active {
+  background: black;
+  color: #ffae42;
+  border: 2px solid #ffae42;
+}

@@ -1,0 +1,58 @@
+span {
+  cursor: pointer;
+}
+
+.navCart span:hover,
+.navCart span:active {
+  color: rgba(255, 255, 255, .5);
+}
+
+.navBar {
+  background-color: #1E1E1E;
+  color: whitesmoke;
+  display: flex;
+  padding: 32px;
+  width: 100%;
+}
+
+.navSearch {
+  display: inline-block;
+  width: 50%;
+  margin-right: 128px;
+}
+
+.navSearch input {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+}
+
+.navSection,
+.navCart {
+  display: inline-block;
+  width: 30%;
+  margin: 0 16px;
+}
+
+.navCart {
+  text-align: center;
+}
+
+.navLink {
+  color: #ffae42;
+  text-decoration: none;
+}
+
+.navLink:hover,
+.navLink:active {
+  color: rgba(255, 174, 66, .5);
+}
+
+.navSection h1,
+.navSection span,
+.navCart h1,
+.navCart span {
+  display: inline-block;
+  margin: 0 16px;
+  vertical-align: middle;
+}

@@ -1,0 +1,65 @@
+.link {
+  text-decoration: none;
+  color: black;
+  display: contents;
+}
+
+.cartItem {
+  list-style: none;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  width: 30%;
+  display: block;
+  margin: 8px auto;
+  padding: 6px;
+}
+
+.cartItem img {
+  width: 20%;
+}
+
+.cartItem p {
+  font-size: small;
+}
+
+
+
+.quantity {
+  color: black;
+  font-size: 1.5rem;
+  float: left;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.total {
+  color: black;
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+.cartFooter {
+  text-align: center;
+}
+
+.cartFooter h3 {
+  display: inline-block;
+  margin: 0 5%;
+  cursor: pointer;
+}
+
+.cartFooter h3:hover,
+.cartFooter h3:active {
+  color: #ffae42;
+}
+
+.price {
+  margin-left: 8%;
+  font-size: small;
+}
+
+.rating {
+  margin-right: 10%;
+}

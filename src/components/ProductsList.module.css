@@ -1,0 +1,28 @@
+.productsHeader {
+  background-color: white;
+  display: inline-block;
+  width: 98%;
+  margin: 16px;
+  margin-top: 64px;
+  padding: 8px;
+  padding-left: 32px;
+  border-radius: 8px;
+}
+
+.products {
+  color: #3f3f3f;
+  background-color: white;
+  display: inline-block;
+  height: auto;
+  width: 98%;
+  margin-left: 16px;
+  padding: 8px;
+  padding-left: 32px;
+  border-radius: 8px;
+}
+
+.products ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
